@@ -3,8 +3,8 @@ spring:
   cloud:
     config:
       server:
-         git:
-           uri: https://github.com/speraignacio/Bootcamp-ConfigServer
-           default-label: main
-           search-paths:
-           - '*service'
+        git:
+          uri: https://github.com/speraignacio/Bootcamp-ConfigServer
+          default-label: main
+          search-paths:
+          - '*service'
